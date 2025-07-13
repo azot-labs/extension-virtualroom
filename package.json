@@ -1,0 +1,33 @@
+{
+  "name": "virtualroom",
+  "version": "0.0.2",
+  "homepage": "https://virtualroom.ru/",
+  "config": {
+    "title": "VirtualRoom",
+    "icon": "https://sun9-50.userapi.com/impg/rY5N7sdA93TFdjkeYqPTnPIjvCJ0rALo_V7V8g/zLAaAv0PpvY.jpg?size=400x400&quality=95&sign=5ddcd6358131b204b8619cb8eeff943f&type=album"
+  },
+  "keywords": [
+    "Videotelephony"
+  ],
+  "author": {
+    "name": "Azot",
+    "url": "https://azot.so/"
+  },
+  "contributors": [
+    {
+      "name": "Vitaly Gashkov",
+      "email": "vitalygashkov@vk.com",
+      "url": "https://github.com/vitalygashkov"
+    }
+  ],
+  "license": "MIT",
+  "main": "virtualroom.js",
+  "files": [
+    "virtualroom.js"
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "@streamyx/api": "^0.2.10",
+    "@types/node": "^24.0.13"
+  }
+}
