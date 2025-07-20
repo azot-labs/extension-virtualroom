@@ -1,9 +1,8 @@
 'use strict';
 
-const { defineExtension } = require('@streamyx/api');
+const { defineExtension } = require('azot');
 
 module.exports = defineExtension({
-  name: 'virtualroom',
   fetchContentMetadata: async (url) => {
     const recordId = new URL(url).searchParams.get('recordId');
 
