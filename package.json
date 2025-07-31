@@ -7,7 +7,7 @@
     "icon": "https://sun9-50.userapi.com/impg/rY5N7sdA93TFdjkeYqPTnPIjvCJ0rALo_V7V8g/zLAaAv0PpvY.jpg?size=400x400&quality=95&sign=5ddcd6358131b204b8619cb8eeff943f&type=album"
   },
   "keywords": [
-    "Videotelephony"
+    "videotelephony"
   ],
   "author": {
     "name": "Azot",
@@ -21,11 +21,14 @@
     }
   ],
   "license": "MIT",
-  "main": "virtualroom.js",
+  "main": "dist/virtualroom.js",
   "files": [
-    "virtualroom.js"
+    "dist"
   ],
-  "scripts": {},
+  "scripts": {
+    "dev": "azt dev",
+    "build": "azt build"
+  },
   "devDependencies": {
     "@types/node": "^24.0.15",
     "azot": "^0.9.0"
