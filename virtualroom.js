@@ -1,7 +1,7 @@
 import { defineExtension } from 'azot';
 
 export default defineExtension({
-  fetchContentMetadata: async (url) => {
+  async fetchContentMetadata(url) {
     const recordId = new URL(url).searchParams.get('recordId');
 
     const infoUrl = `https://mv1.virtualroom.ru/vr/player/records/${recordId}/info`;
